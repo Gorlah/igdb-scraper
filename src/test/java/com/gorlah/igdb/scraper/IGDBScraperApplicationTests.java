@@ -1,12 +1,12 @@
 package com.gorlah.igdb.scraper;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IgdbScraperApplicationTests {
+class IGDBScraperApplicationTests {
 
-    @Test
+//    @Test
     void contextLoads() {
+
     }
 }

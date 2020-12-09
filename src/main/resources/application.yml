@@ -1,0 +1,28 @@
+igdb:
+  game:
+    fields:
+      - "*"
+      - "age_ratings.*"
+      - "alternative_names.*"
+      - "artworks.*"
+      - "collection.*"
+      - "cover.*"
+      - "external_games.*"
+      - "franchise.*"
+      - "franchises.*"
+      - "game_engines.*"
+      - "game_modes.*"
+      - "genres.*"
+      - "involved_companies.*"
+      - "keywords.*"
+      - "multiplayer_modes.*"
+      - "parent_game.*"
+      - "platforms.*"
+      - "player_perspectives.*"
+      - "release_dates.*"
+      - "screenshots.*"
+      - "themes.*"
+      - "videos.*"
+      - "websites.*"
+    page-size: 500
+    threads: 4

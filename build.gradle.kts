@@ -23,6 +23,11 @@ repositories {
 }
 
 dependencies {
+    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.11.3")
+    implementation("com.github.husnjak:IGDB-API-JVM:1.0.1")
+    implementation("com.google.guava:guava:30.0-jre")
+    implementation("com.google.protobuf:protobuf-java:3.14.0")
     implementation("org.springframework.boot:spring-boot-starter")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
