@@ -110,7 +110,7 @@ class GameScraperRunner implements ApplicationRunner {
         }
         if (gameNode.has("websites")) {
             var websites = gameNode.get("websites");
-            replaceAllNodes(websites, "category", (website, field) -> WebsiteCategoryEnum.forNumber(website.get(field).asInt()).toString());
+            replaceAllNodes(websites, "category", (website, field) -> GameWebsite.fromValue(website.get(field).asInt()).toString());
         }
         return gameNode;
     }
