@@ -28,7 +28,9 @@ dependencies {
     implementation("com.github.husnjak:IGDB-API-JVM:1.0.1")
     implementation("com.google.guava:guava:30.0-jre")
     implementation("com.google.protobuf:protobuf-java:3.14.0")
+    implementation("org.springframework:spring-web")
     implementation("org.springframework.boot:spring-boot-starter")
+    implementation("org.springframework.data:spring-data-elasticsearch")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

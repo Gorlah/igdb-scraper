@@ -13,6 +13,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 import proto.*;
 
@@ -29,6 +30,7 @@ import java.util.stream.StreamSupport;
 import static com.google.common.collect.ImmutableList.toImmutableList;
 
 @Slf4j
+@Profile("scrape")
 @Component
 @RequiredArgsConstructor
 class GameScraperRunner implements ApplicationRunner {
